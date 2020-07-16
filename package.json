@@ -1,0 +1,17 @@
+{
+  "name": "portalapp",
+  "version": "1.0.0",
+  "description": "This is API service for app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "6.14.4"
+  },
+  "author": "anand iyengar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
