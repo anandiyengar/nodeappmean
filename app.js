@@ -19,7 +19,7 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(cookieParser());
 
-app.use("",userAuth);
+app.use("/api",userAuth);
 
 app.listen(port,(req,res)=>{
     console.log("APP IS STARTED");
